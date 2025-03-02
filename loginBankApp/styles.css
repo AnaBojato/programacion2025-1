@@ -39,3 +39,48 @@
     font-weight: bold;
     color: white;
 }
+
+/* login */
+
+.Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: flex-start;
+    position: absolute;
+    top: 120px;
+    left: 38%;
+    color: #ffffff
+
+     
+}
+
+
+.input-icon {
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 78px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10%;
+    position: absolute;
+    top: 190px; 
+    left: 41%;
+}
+
+.detail {
+    position: absolute;
+    top: 250px;  /* Ajusta según la esquina deseada */
+    right: 155px; /* Ajusta según la esquina deseada */
+    width: 20px; 
+    height: 20px; 
+    background-color: white; 
+    border: 3px solid orange; 
+    border-radius: 50%;
+
+}
+
+span{
+    margin-right: 12px;
+}
