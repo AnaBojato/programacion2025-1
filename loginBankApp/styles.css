@@ -1,6 +1,41 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/backgrouund.svg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons_top {
+    width: 90%; 
+    max-width: 400px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icons_top img {
+    width: 18px;
+    height: 18px;
+}
+
+.icons_top p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
 }
