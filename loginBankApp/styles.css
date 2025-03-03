@@ -84,3 +84,125 @@
 span{
     margin-right: 12px;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/backgrouund.svg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons_top {
+    width: 90%; 
+    max-width: 400px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icons_top img {
+    width: 18px;
+    height: 18px;
+}
+
+.icons_top p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* login */
+
+.Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: flex-start;
+    position: absolute;
+    top: 120px;
+    left: 38%;
+    color: #ffffff
+
+     
+}
+
+
+.input-container2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+
+span{
+    margin-right: 12px;
+}
+
+.login-button {
+    background: linear-gradient(to top,#aa5bc8 60%,#b664d0);
+    color: white;
+    padding: 12px;
+    width: 230px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: -2px;
+    border-radius: 3%;
+    position: relative;
+    top: 30%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.accept-button{
+    background: none;
+    border: none;
+    color: #ccc;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 11px;
+    font-family: 'Poppins-LightItalic',sans-serif;
+    position: relative;
+    top: 1px; 
+    left: 15px;
+
+
+
+}
+
+.help-button{
+    background: none;
+    border: none;
+    color: #ccc;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 11px;
+    font-family: 'Poppins-LightItalic',sans-serif;
+    position: relative;
+    top: 1px; 
+    left: 20px;
+    
+
+
+
+}
